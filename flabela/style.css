@@ -1,0 +1,21 @@
+table {
+    border: 1px solid black;
+}
+
+a {
+    border: 1pix solid black;
+    text-decoration: none;
+}
+
+#add {
+    color: blue;
+    transition: 0.4s;
+}
+
+#deletar {
+    color: red;
+}
+
+#editar {
+    color: aqua;
+}
