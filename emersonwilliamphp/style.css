@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    border:  1px solid red;
+    margin-top: -0.5rem;
+    background-color: rgb(143, 0, 0);
+}
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    margin: 0.5rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+.container-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 25%;
+    margin: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imgCard {
+    display: flex;
+    justify-content: center;
+}
+
+.imgCard img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.texto {
+    text-align: center;
+    background-color: red;
+    color: white;
+}
