@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(226, 200, 0);
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px inset rgb(252, 0, 0);
+    /*border-collapse: collapse;*/
+    border-radius: 5px;
+    color: rgb(255, 187, 0);
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+p{
+    color: white;
+}
+
+pre {
+    color: white;
+}
+
+table {
+    width: 40%;
+    border-spacing: 6px;
+    background-color: black;
+}
+
+td {
+    text-align: center;
+}
+
+th, td { /* 4 valores- 1 topo, 2 direita, 3 baixo, 4 esquerda */
+    padding: 10px;
+}
+
+td:hover {
+    background-color: white;
+}
+
+.fund-red { /* começar ponto para class */
+    background-color: rgb(255, 0, 0);
+}
+
+.letra-branca {
+    color: white;
+}
+
+#fund-blue { /* # no começo quando for ID */
+    background-color: blue;
+}

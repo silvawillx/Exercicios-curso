@@ -1,0 +1,35 @@
+.flex-container > div {
+    background-color: blue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+
+.flex-container { /* so para flexbox*/
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: center;
+    align-content: center;
+}
+
+#cont4 {
+    /**height: 200px;*/
+}
+
+@media screen and (max-width: 600px){ /*sempre o ultimo*/
+    body {
+        background-color: rgb(150, 0, 0);
+    }
+    .flex-container {
+        height: fit-content;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}

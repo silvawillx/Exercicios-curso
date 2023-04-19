@@ -1,0 +1,123 @@
+body { /*cor de fundo e altura*/
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    display: block;
+    }
+    
+
+header {
+    /*cor de fundo do h1 e altura e largura*/
+    background-color: rgb(150, 0, 0);
+    margin: 50px;
+    height: 60px;
+    width: 100px;
+}
+
+nav { /*Alinhamento de texto altura e tamanho da fonte*/
+    text-align: center;
+    height: 30px;
+    font-size: 30px;
+}
+
+h1 { /*cor da fonte*/
+    color: rgb(255, 196, 0);
+}
+
+h2 { /*alinhamento de texto, cor e tamanho da fonte h2*/
+    text-align: center;
+    color: rgb(255, 196, 0);
+    font-size: 50px ;
+}
+
+p{ /*cor do p, tamanho de fonte, centralizar e flex*/
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+
+}
+
+table, th, td {
+    border: 1px inset rgb(252, 0, 0);
+    /*border-collapse: collapse;*/
+    border-radius: 5px;
+    color: rgb(255, 187, 0);
+}
+table {
+    width: 40%;
+    border-spacing: 6px;
+    background-color: black;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+}
+
+th, td { /* 4 valores- 1 topo, 2 direita, 3 baixo, 4 esquerda */
+    padding: 10px;
+}
+
+button { /* cor do botão, borda altura e altera cursor quando passa por cima */
+    background-color: #ffea00; 
+    border: 1px solid rgb(255, 187, 0); 
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 1.5rem;
+  }
+
+
+
+  .red {
+    background-color: #ffea00; 
+    border: 1px solid rgb(255, 187, 0); 
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 1.5rem;
+  }
+.container { 
+    margin: auto;
+  }
+  
+  .image { /* borda da imagem, opacidade, altura e transição */
+    border: 1px solid rgb(255, 187, 0);
+    opacity: 1;
+    margin: auto;
+    display: flex;
+    width: 400px;
+    transition: .3s ease;
+    border: 1px solid rgb(255, 187, 0);
+  }
+
+  .center {
+    margin: 1.5rem;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .mudar { /* alinhamento do botão*/
+    text-align: center;
+
+  }
+  
+
+  button:hover{
+    background-color: #e7df8e;
+  }
+
+  @media screen and (max-width: 600px){ /*sempre o ultimo*/
+    body {
+        background-color: rgb(150, 0, 0); /* mudar cor para vermelho quando telas menores */
+    }
+    .flex-container {
+        height: fit-content;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
